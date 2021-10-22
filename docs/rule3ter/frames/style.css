@@ -1,0 +1,64 @@
+body{
+    background-color: #F1DAFF;
+    font-family: "sans-serif";
+    font-size:small;
+}
+@font-face {
+    font-family: "Emblema One";
+    src:url("EmblemaOne-regular.woff"),
+    url("EmblemaOne-regular.ttf");
+}
+h1{
+    color:sienna;
+    font-family: "Emblema One", "sans-serif";
+    font-size: 250%;
+}
+h2{
+    color:blue;
+    font-family: "impact";
+    font-size: 200%;
+    font-weight: normal;
+}
+p{
+    font-size: 135%;
+}
+a{
+    font-size: 125%;
+}
+blockquote{
+    font-style: italic;
+}
+img{
+    width: 250px;
+    float: left;
+}
+.Amazing{
+    width: 250px;
+    float: right;
+}
+#portada{
+    width: 350px;
+    float:left;
+}
+#link{
+    font-size: 100%;
+    float:center;
+}
+#tercios{
+        width: 10px;
+        float: right;
+}
+h3{
+    color:fuchsia;
+    font-family: "Emblema One", "sans-serif";
+    font-size: 250%;
+    float:center;
+}
+#video1{
+    width: small;
+    float:center;
+}
+#video2{
+    width: small;
+    float:center;
+}

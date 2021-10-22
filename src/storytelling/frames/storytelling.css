@@ -1,0 +1,20 @@
+body{
+    background-color: #b4dff8;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    color: #004ef5;
+    border-bottom: thin dotted #888888;
+}
+h1{
+    color: rgb(1, 44, 82);
+    font-size: 220%;
+}
+h2{
+    font-size: 130%;
+    font-weight: normal;
+}
