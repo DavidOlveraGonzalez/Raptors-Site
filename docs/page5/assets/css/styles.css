@@ -1,7 +1,8 @@
 .Estilo1 {
-	color: #9900ff;
-	font-size: xx-large;
-	font-family: Arial, Helvetica, sans-serif;
+	color: #3A0DFF;
+	font-size: 50px;
+	font-family: Arial black;
+    margin-top: -5px;
 }
 
 #bt {
@@ -13,12 +14,13 @@ left: max-content;
 .Estilo2 {
     font-weight: bold;
 	font-size: 28px;
-	background-color: #58d024ff;
+	background-color: #1E5945;
     border-color: black;
     border-width: 1px;
     border-style: solid;
     padding: 50px 100px 50px 100px;
     margin: 30px;
+    color: #FFFFFF;
 }
 
 .Estilo3 {
@@ -35,12 +37,18 @@ left: max-content;
     .Estilo4{
     font-weight: bold;
 	font-size: 28px;
-	background-color: #58d024ff;
+	background-color: #1E5945;
     border-color: black;
     border-width: 1px;
     border-style: solid;
     padding: 50px 100px 50px 100px;
-    margin: 0px 11px 10px 30px;
+    margin: 0px 0px 10px 30px;
+    color: #FFFFFF;
 }
 
 .Estilo8 {font-size: 38px}
+
+table
+{
+    margin-top: -20px;
+}

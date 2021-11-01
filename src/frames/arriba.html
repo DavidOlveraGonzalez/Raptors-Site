@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" charset="utf-8"/>
 <title>Documento sin t&iacute;tulo</title>
 <style type="text/css">
 
@@ -12,10 +12,64 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 36px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f18d41;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-family:  Arial, Helvetica, sans-serif;
+	
+}
+body{	
+overflow: hidden;
+}
+
+nav{
+	padding: 0px 215px 0px 180px;
+	
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #000000;
+}
 </style>
 </head>
 
 <body>
-<div align="center" class="Estilo1"><img src="../assets/img/img1.png" align="left"><span class="Estilo1">BIENVENIDO TSU TI </span><img src="../assets/img/img1.png" align="right"></div>
+<div align="center" class="Estilo1"><img src="../assets/img/img1.png" align="left"><span class="Estilo1">CARRERA: TSU TI. Entornos Virtuales y Digitales</span><img src="../assets/img/img1.png" align="right"></div>
+<br>
+<nav align="center">
+    <ul align="center">
+      <li>
+        <a href="centro2.html" target="centro">INICIO</a>
+      </li>
+      <li>
+        <a href="../page2/frames/centro.html" target="centro">CUATRIMESTRES</a>
+      </li>
+      <li>
+        <a href="../page3/frames/centro.html" target="centro">MATERIAS</a>
+      </li>
+      <li>
+        <a href="../page4/frames/centro.html" target="centro">UNIDADES</a>
+      </li>
+      <li>
+        <a href="../page5/frames/centro.html" target="centro">TEMAS</a>
+      </li>
+	  <li style="float:right"><a class="active" href="../about.html" target="centro">ACERCA DE NOSOTROS</a></li>
+    </ul>
+  </nav>
 </body>
 </html>
