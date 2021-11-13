@@ -1,0 +1,44 @@
+body{ 
+    color:rgb(14, 13, 13);
+    font-family: "sans-serif";
+    font-size: small;
+    margin-top: 40px;
+    } 
+    h1{
+        color:yellow;
+        font-family:monospace;
+        font-size: 450%;
+        font-weight:initial;
+        padding-right: 20px;
+    }
+    h2{
+        color:yellow;
+        font-family:monospace;
+        font-size: 450%;
+        font-weight:initial;
+        padding-right: 10px;
+    }
+    h3{
+        color:lime;
+        font-family:monospace;
+        font-size: 450%;
+        font-weight:initial;
+        padding-right: 30px;
+    }
+    p{
+        color: white;
+        font-size: 135%;
+        font-weight: bold;
+    }
+    a{
+        color: lime;
+        font-weight: lighter;
+        font-family:"Arial, Helvetica, sans-serif";
+        font-size: 155%;
+    }
+    #Pase {
+
+        position: fixed;
+        top: 350px;
+        left: -10px;
+    }

@@ -7,11 +7,87 @@
 
 body{
 	background-color: #ff750d;
+  overflow: hidden;
 }
-.Estilo1 {	color: #000000;
+
+#logo .ima{
+    display: block;
+    float: left;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 26px;
+    animation-name: rotate-ima;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+
+#logo .ima2{
+    display: block;
+    float: right;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 26px;
+    animation-name: rotate-ima;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+  }
+
+@keyframes rotate-ima{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+#logo:hover{
+    border-radius: 2px;
+    color: white;
+    background-color: #f18d41;
+}
+
+#logo:hover .ima{
+    animation: fromBelow 500ms linear;
+}
+
+#logo:hover .ima2{
+    animation: fromBelow 500ms linear;
+}
+
+@keyframes fromBelow{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.Estilo2 {	
+  color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 36px;
+	font-size: 24px;
+  text-align: center;
+  float: center;
 }
+
+#logo:hover h2{
+    animation: fromLight 500ms linear;
+}
+
+@keyframes fromLight {
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+   
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,9 +109,8 @@ li a {
     font-family:  Arial, Helvetica, sans-serif;
 	
 }
-body{	
-overflow: hidden;
-}
+
+
 
 nav{
 	padding: 0px 215px 0px 180px;
@@ -49,8 +124,14 @@ li a:hover {
 </head>
 
 <body>
-<div align="center" class="Estilo1"><img src="../assets/img/img1.png" align="left"><span class="Estilo1">CARRERA: TSU TI. Entornos Virtuales y Digitales</span><img src="../assets/img/img1.png" align="right"></div>
-<br>
+  <div id="logo">
+    <span class="ima"><img src="../assets/img/img1.png"></span>
+    <h2 class="Estilo2">CARRERA: TSU TI. Entornos Virtuales y Digitales<span class="ima2"><img src="../assets/img/img1.png"></span>
+    </h2>
+    
+  </div>
+
+
 <nav align="center">
     <ul align="center">
       <li>

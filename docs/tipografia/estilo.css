@@ -1,0 +1,46 @@
+
+h1{
+   font-family: 'Arial Narrow', Arial, sans-serif; 
+   font-size: 50;
+   padding: 15px;
+}
+
+h2{
+    color: rgb(69, 33, 87);
+    font-size: 30;
+}
+.intro{
+    border-top-right-radius: 4px;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    background-image: url(tipografia2/tipo2.png);
+    padding: 30px;
+    background-color: burlywood;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+
+}
+.significado{
+    border-top-right-radius: 4px;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+
+
+}
+.home{
+    border-top-right-radius: 4px;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
